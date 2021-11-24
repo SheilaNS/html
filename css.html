@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um pouco de CSS</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- puxa os códigos CSS de um arquivo externo -->
+    <style> /* coloca os códigos CSS no <head> da página */
+        h1 {
+            font-size: 20px;
+        }
+
+        .fundoVermelho {
+            background-color: red;
+        }
+
+        .negrito {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <span id="textoPrincipal">Texto 1</span><br><br><br>
+    <span class="fundoVermelho negrito" style="display: none;">Texto 2</span><br><br> <!-- aplica o CSS diretamente na tag html -->
+    <span class="fundoVermelho">Texto 3</span>
+</body>
+</html>
