@@ -9,3 +9,11 @@ Curso HTML na Udemy
 * texto.html - mostra todas as tags relacionadas a texto
 * listas.html - mostra como fazer listas
 * listaAninhada.html - mostra como fazer uma lista aninhada
+* links.html - mostra os tipos de links que podemos usar
+* tabelas.html - mostra como criar uma tabela
+* formulario.html - mostra como criar um formulário
+
+
+
+### Observação:
+A aula feita sobre formulários solicitava a criação de um "mini" servidor para simular a troca de informações entre as tags HTML e o back-end. Eu optei por não fazer esse servidor para focar apenas no HTML em si.

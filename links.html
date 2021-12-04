@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1 id="inicio">Links</h1>
+
+    <!--URL ABSOLUTA-->
+    <a href="http://www.google.com">Google 1</a><br> 
+    <a href="http://www.google.com" target="_blank">Google 2</a><br><br>
+
+    <!--URL RELATIVA-->
+    <a href="index.html">Volta 1(o arquivo precisa estar na mesma pasta)</a><br>
+    <a href="/index.html">Volta 2(o arquivo precisa estar na pasta raiz)</a><br>
+    <a href="../index.html">Volta 3(sai de 2 pastas para encontrar o arquivo desejado)</a><br><br>
+
+    <!--LINK PARA E-MAIL-->
+    <a href="mailto:exemplo@gmail.com">Entre em contato</a><br><br>
+
+    <!--LINK INTERNO-->
+    <a href="#noticia">Ir para notícia</a>
+
+    <div id="noticia" style="position: absolute; top: 2000px;">
+        <h1>Notícia Buemba!</h1>
+        <p>Não era nada...</p>
+        <a href="#inicio">Voltar para o inicio</a>
+    </div>
+</body>
+</html>

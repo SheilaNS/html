@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        thead tr {
+            border-bottom: solid 3px #444444;
+        }
+
+        tbody tr:hover {
+            background-color: #dedede;
+        }
+
+        tfoot {
+            background-color: #444444;
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <br>
+    <table>
+        <caption>Produtos</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>iPad</td>
+                <td>3289,00</td>
+                <td>5</td>
+                <td>16445,00</td>
+            </tr>
+            <tr>
+                <td>Samsung S9</td>
+                <td>2649,00</td>
+                <td>8</td>
+                <td>21192,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <!--colspan regula o tamanho das colunas a serem ocupadas-->
+                <!--rowspan regula a quantidade de linhas a serem ocupadas-->
+                <td colspan="3" rowspan="2">Total</td>
+                <td>37637,00</td>
+            </tr>
+            <tr>
+                <td>Teste</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
