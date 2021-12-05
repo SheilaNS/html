@@ -1,5 +1,7 @@
 # html
-Curso HTML na Udemy
+Capítulo de HTML do curso Web Moderno Completo com JavaScript 2021 + Projetos.
+Disponível na Udemy.
+Ministrado por Leonardo Moura Leitão.
 
 ## Conteúdo:
 
@@ -12,6 +14,9 @@ Curso HTML na Udemy
 * links.html - mostra os tipos de links que podemos usar
 * tabelas.html - mostra como criar uma tabela
 * formulario.html - mostra como criar um formulário
+* imagens.html - mostra como exibir imagens
+* video.html - mostra como exibir vídeos
+* tagsNaoVisuais.html - mostra tags não visuais
 
 
 
